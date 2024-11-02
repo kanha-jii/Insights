@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.insights.fragments.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.insights.fragments.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_signupFragment"
+            app:destination="@id/signupFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_passResetFragment"
+            app:destination="@id/passResetFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.insights.fragments.SignupFragment"
+        android:label="fragment_signup"
+        tools:layout="@layout/fragment_signup" >
+        <action
+            android:id="@+id/action_signupFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_signupFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_signupFragment_to_selectTypeFragment"
+            app:destination="@id/selectTypeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectTypeFragment"
+        android:name="com.insights.fragments.SelectTypeFragment"
+        android:label="fragment_select_type"
+        tools:layout="@layout/fragment_select_type" >
+        <action
+            android:id="@+id/action_selectTypeFragment_to_surveyFragment"
+            app:destination="@id/surveyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.insights.fragments.main.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_doctorFragment"
+            app:destination="@id/doctorFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_homeFragment_to_parentFragment"
+            app:destination="@id/parentFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_homeFragment_to_teacherFragment"
+            app:destination="@id/teacherFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/surveyFragment"
+        android:name="com.insights.fragments.SurveyFragment"
+        android:label="fragment_survey"
+        tools:layout="@layout/fragment_survey" >
+        <action
+            android:id="@+id/action_surveyFragment_to_highMaintenanceFragment"
+            app:destination="@id/highMaintenanceFragment" />
+        <action
+            android:id="@+id/action_surveyFragment_to_shyFragment"
+            app:destination="@id/shyFragment" />
+        <action
+            android:id="@+id/action_surveyFragment_to_socialChildFragment"
+            app:destination="@id/socialChildFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/highMaintenanceFragment"
+        android:name="com.insights.fragments.childtype.HighMaintenanceFragment"
+        android:label="fragment_high_maintenance"
+        tools:layout="@layout/fragment_high_maintenance" />
+    <fragment
+        android:id="@+id/shyFragment"
+        android:name="com.insights.fragments.childtype.ShyFragment"
+        android:label="fragment_shy"
+        tools:layout="@layout/fragment_shy" />
+    <fragment
+        android:id="@+id/socialChildFragment"
+        android:name="com.insights.fragments.childtype.SocialChildFragment"
+        android:label="fragment_social_child"
+        tools:layout="@layout/fragment_social_child" />
+    <fragment
+        android:id="@+id/doctorFragment"
+        android:name="com.insights.fragments.interfacetype.DoctorFragment"
+        android:label="fragment_doctor"
+        tools:layout="@layout/fragment_doctor" >
+        <action
+            android:id="@+id/action_doctorFragment_to_surveyFragment"
+            app:destination="@id/surveyFragment" />
+        <action
+            android:id="@+id/action_doctorFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/parentFragment"
+        android:name="com.insights.fragments.interfacetype.ParentFragment"
+        android:label="fragment_parent"
+        tools:layout="@layout/fragment_parent" >
+        <action
+            android:id="@+id/action_parentFragment_to_surveyFragment"
+            app:destination="@id/surveyFragment" />
+        <action
+            android:id="@+id/action_parentFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/teacherFragment"
+        android:name="com.insights.fragments.interfacetype.TeacherFragment"
+        android:label="fragment_teacher"
+        tools:layout="@layout/fragment_teacher" >
+        <action
+            android:id="@+id/action_teacherFragment_to_surveyFragment"
+            app:destination="@id/surveyFragment" />
+        <action
+            android:id="@+id/action_teacherFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/passResetFragment"
+        android:name="com.insights.fragments.PassResetFragment"
+        android:label="fragment_pass_reset"
+        tools:layout="@layout/fragment_pass_reset" />
+</navigation>

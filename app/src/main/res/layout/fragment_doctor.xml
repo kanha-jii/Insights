@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/screen_bg"
+    tools:context=".fragments.interfacetype.DoctorFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_32sdp"
+
+            >
+
+            <TextView
+                android:id="@+id/tv_parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shy_bg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:text="Doctor Section"
+                android:fontFamily="@font/baloo_bhai_2_bold"
+                android:gravity="end|center"
+                android:textColor="@color/white"
+                android:paddingEnd="@dimen/_18sdp"
+                android:textSize="@dimen/_16sdp"
+                />
+
+            <ImageView
+                android:id="@+id/iv_parent"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:src="@drawable/image_doctor"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginStart="@dimen/_8sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:scaleType="fitXY"
+                android:layout_marginBottom="@dimen/_1sdp"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_32sdp"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            app:contentPadding="@dimen/_16sdp"
+            app:cardElevation="0dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome to the Doctor's Section"
+                    android:fontFamily="@font/baloo_bhai_2_medium"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="@color/theme_dark"
+                    android:gravity="start"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo_bhai_2"
+                    android:textColor="@color/light_theme_dark"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:text="@string/welcome" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Key Features:"
+                    android:fontFamily="@font/baloo_bhai_2_medium"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="@color/theme_dark"
+                    android:gravity="start"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo_bhai_2"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:textColor="@color/light_theme_dark"
+                    android:text="@string/key_features" />
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Together, We Can Shape a Bright Future!:"
+            android:fontFamily="@font/baloo_bhai_2_medium"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/theme_dark"
+            android:gravity="start"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo_bhai_2"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_marginHorizontal="@dimen/_22sdp"
+            android:textColor="@color/light_theme_dark"
+            android:text="@string/together" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                app:cardBackgroundColor="@color/light_theme_dark"
+                app:cardCornerRadius="@dimen/_100sdp"
+                app:contentPadding="@dimen/_8sdp"
+                app:cardElevation="0dp"
+                >
+
+                <TextView
+                    android:id="@+id/tv_survey"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Take Survey"
+                    android:paddingHorizontal="@dimen/_15sdp"
+                    android:layout_gravity="center"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                app:cardBackgroundColor="@color/theme_dark"
+                app:cardCornerRadius="@dimen/_100sdp"
+                app:contentPadding="@dimen/_8sdp"
+                app:cardElevation="0dp"
+                >
+
+                <TextView
+                    android:id="@+id/tv_logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Logout"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:paddingHorizontal="@dimen/_15sdp"
+                    android:layout_gravity="center"
+                    />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

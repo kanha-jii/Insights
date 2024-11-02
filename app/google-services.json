@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "841147332557",
+    "project_id": "insights-b98bd",
+    "storage_bucket": "insights-b98bd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841147332557:android:9dd7916e29b26fd8fc7684",
+        "android_client_info": {
+          "package_name": "com.insights"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVtjNOKEP9s3PoFBaDugDAs_-0kmAugRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="theme">#00DD93</color>
+    <color name="theme_dark">#181725</color>
+
+    <color name="colorSnackBarSuccess">#8BC34A</color>
+    <color name="colorSnackBarError">#F72400</color>
+
+    <color name="text_grey">#787878</color>
+
+    <color name="light_theme_dark">#78181725</color>
+
+
+    <color name="screen_bg">#F6F5F2</color>
+
+</resources>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/screen_bg"
+    android:paddingBottom="@dimen/_25sdp"
+    >
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Walks Quitly in the house when moving from room to room."
+        android:fontFamily="@font/baloo_bhai_2_bold"
+        android:textSize="@dimen/_16sdp"
+        android:textColor="@color/theme_dark"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    
+    <HorizontalScrollView
+        android:id="@+id/hsv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_question"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:orientation="horizontal"
+        android:scrollbars="none"
+        android:background="@color/screen_bg"
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            >
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            app:cardBackgroundColor="@color/light_theme_dark"
+            app:cardElevation="0dp"
+            app:cardCornerRadius="@dimen/_8sdp"
+            app:contentPadding="@dimen/_8sdp"
+            >
+
+            <TextView
+                android:id="@+id/tv_answer1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="yess"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                android:fontFamily="@font/baloo_bhai_2_bold"
+                android:gravity="center"
+                />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv2"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_50sdp"
+            app:cardBackgroundColor="@color/light_theme_dark"
+            app:cardElevation="0dp"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            app:cardCornerRadius="@dimen/_8sdp"
+            app:contentPadding="@dimen/_8sdp"
+            >
+
+            <TextView
+                android:id="@+id/tv_answer2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="yess"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                android:fontFamily="@font/baloo_bhai_2_bold"
+                android:gravity="center"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv3"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_50sdp"
+            app:cardBackgroundColor="@color/light_theme_dark"
+            app:cardElevation="0dp"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            app:cardCornerRadius="@dimen/_8sdp"
+            app:contentPadding="@dimen/_8sdp"
+            >
+
+            <TextView
+                android:id="@+id/tv_answer3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="yess"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                android:fontFamily="@font/baloo_bhai_2_bold"
+                android:gravity="center"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv4"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_50sdp"
+            app:cardBackgroundColor="@color/light_theme_dark"
+            app:cardElevation="0dp"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            app:cardCornerRadius="@dimen/_8sdp"
+            app:contentPadding="@dimen/_8sdp"
+            >
+
+            <TextView
+                android:id="@+id/tv_answer4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="yess"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                android:fontFamily="@font/baloo_bhai_2_bold"
+                android:gravity="center"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv5"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_50sdp"
+            app:cardBackgroundColor="@color/light_theme_dark"
+            app:cardElevation="0dp"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            app:cardCornerRadius="@dimen/_8sdp"
+            app:contentPadding="@dimen/_8sdp"
+            >
+
+            <TextView
+                android:id="@+id/tv_answer5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="yess"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                android:fontFamily="@font/baloo_bhai_2_bold"
+                android:gravity="center"
+                />
+        </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+
+    </HorizontalScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:backgroundTint="@color/theme_dark"
+        android:background="@color/theme_dark"
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        app:layout_constraintTop_toBottomOf="@id/hsv"
+        android:layout_marginTop="@dimen/_22sdp"
+
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Insights</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="desc">description</string>
+
+    <string name="high_maintenance_desc">Individuals who are considered high-maintenance often require more attention, support, or resources than others. This can manifest in various ways, such as needing constant reassurance in relationships or being particular about their environment and needs.</string>
+
+    <string name="high_maintenance_imp">In Relationships: They may need more emotional support and validation, which can sometimes be overwhelming for partners or friends.\n\n In Work Settings: High-maintenance individuals may require more guidance or feedback, which can be both a challenge and an opportunity for growth.\n\nSelf-Reflection: Understanding this trait can lead to personal growth, as individuals may learn to balance their needs with those of others.</string>
+
+
+    <string name="high_maintenance_con">Understanding the diverse traits of children—such as high-maintenance, industrious, shy and cautious, or social and eager to try—is crucial for their development. Each trait has its strengths and challenges, and recognizing these characteristics enables parents, teachers, and caregivers to provide tailored support that meets each child\'s unique needs.</string>
+
+    <string name="shy_desc">Shy and cautious individuals tend to be reserved and may take time to warm up to new experiences or people. They often think carefully before acting, which can lead to indecisiveness.</string>
+    <string name="shy_imp">In Social Situations: They might miss out on opportunities for connection and networking but often form deep, meaningful relationships when they do engage.\n\n In Careers: Their cautious approach can lead to thoroughness and attention to detail, which is beneficial in roles that require precision.\n\nPersonal Growth: By gradually stepping out of their comfort zones, shy individuals can build confidence and expand their social circles.</string>
+    <string name="shy_con">Shy and cautious children, though reserved, often develop deep, meaningful relationships and show great attention to detail. With gentle encouragement and a supportive environment, they can build confidence, embrace new experiences, and thrive in their own unique ways.</string>
+
+
+    <string name="angry_desc">These individuals are outgoing and enthusiastic about new experiences. They enjoy meeting new people and are often open to exploring different activities and opportunities.</string>
+    <string name="angry_imp">In Social Situations: Their sociability allows them to create networks and build friendships easily, enriching their personal and professional lives.\n\n In Careers: Their willingness to try new things can lead to innovation and adaptability in the workplace, making them valuable team members.\n\n Personal Growth: Their openness can lead to diverse experiences, enhancing their creativity and overall life satisfaction.</string>
+    <string name="angry_con">Social and eager-to-try children bring energy, openness, and adaptability to new experiences and relationships. With guidance to help them focus and channel their enthusiasm, they can harness their curiosity and social skills to foster creativity, resilience, and meaningful connections.</string>
+
+
+    <string name="welcome">At InsightfulPath, we understand the vital role parents play in their child’s career journey. Here, you’ll find resources to help you support and guide your child towards a successful future.</string>
+
+    <string name="key_features">Personalized Guidance: Tailored insights based on your child’s interests and strengths. \n\n Career Resources: Access articles and webinars on various career paths.\n\n Job Market Trends: Stay updated on the latest job opportunities and skills in demand.\n\n Mock Tests &amp; Assessments: Encourage your child to prepare for exams with our exclusive resources.\n\n Community Forum: Connect with other parents for support and sharing experiences.\n</string>
+    <string name="together">By actively engaging with the resources available in the Parent\'s Corner, you can empower your child to explore their passions, unlock their potential, and achieve their dreams with confidence. Let’s work together to create a supportive environment for their growth and success!</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/screen_bg"
+    tools:context=".fragments.SurveyFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/_20sdp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temperament Profile\n Survey"
+            android:textAlignment="center"
+            android:background="@color/theme_dark"
+            android:textColor="@color/white"
+            android:fontFamily="@font/baloo_bhai_2_medium"
+            android:textSize="@dimen/_16sdp"
+            android:gravity="center"
+            android:padding="@dimen/_16sdp"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_questions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/item_questions"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tv_bg"
+            android:layout_marginHorizontal="@dimen/_32sdp"
+            android:text="View Results"
+            android:layout_marginTop="@dimen/_32sdp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/baloo_bhai_2_bold"
+            android:gravity="center"
+            android:textSize="@dimen/_16sdp"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
